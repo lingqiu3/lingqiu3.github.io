@@ -10,12 +10,23 @@
 
 <head>
 
+  
+  
+
+  
+
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="description" content="I love building beautiful things. :tiger: :panda_face:">
 
-  <title>Ling Qiu</title>
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Variational Quantum Factoring">
+  <meta property="og:description" content="A research study to explore the implementation of Variational Quantum Factoring on noisy quantum computers.">
+
+  <title>Variational Quantum Factoring</title>
+  <meta name="description" content="A research study to explore the implementation of Variational Quantum Factoring on noisy quantum computers.">
+
+  
   <link rel="shortcut icon" type="image/x-icon" href="/assets/favicon.ico">
 
   <!-- Font Awesome CDN -->
@@ -45,8 +56,7 @@
   </button>
 
   <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-    <div class="navbar-nav ml-auto">
-<a class="nav-item nav-link active" href="/projects/">Projects</a>
+    <div class="navbar-nav ml-auto"><a class="nav-item nav-link active" href="/projects/">Projects</a>
 
       <a class="nav-item nav-link " href="/publications/">Publications</a>
 
@@ -61,7 +71,7 @@
   <div class="col-lg-10 mx-auto mt-5 post">
   <h1 id="variational-quantum-factoring">Variational Quantum Factoring</h1>
 
-<p><br></p>
+<p><br /></p>
 
 <p>Quantum computing is prophesized to solve integer factorization which is the basis of the RSA based cryptosystem. Quantum factoring using Shor’s algorithm has demonstrated the potential to factor large integers in polynomial time compared to classical computers which take exponential time. However, it requires an excessive number of qubits to factor even trivial numbers e.g. 21 precluding its application in today’s Noisy-Intermediate-Scale-Quantum (NISQ) computers that possess a limited number of qubits. To make the best use of the limited quantum resources, an alternative approach is to transform the factoring problem into a combinatorial optimization problem which is then solved using a hybrid quantum-classical solver known as Variational
 Quantum Factoring (VQF).</p>
@@ -70,16 +80,16 @@ Quantum Factoring (VQF).</p>
 
 <p>In this study, we aim to quantify the impact of noise on VQF and improve its performance using variou mathematical transformations. The simulation of quantum circuits are conducted using <a href="https://qiskit.org/">Qiskit</a>, a quantum computing simulation package in Python developed by IBM. In addition, to improve the time efficiency of experiment, I developed a Python based framework to automatically map a factoring problem into a parametric quantum circuit.</p>
 
-<p><br></p>
+<p><br /></p>
 
 <h2 id="paper"><strong>Paper</strong></h2>
 
-<hr style="height:1px; visibility:hidden;">
+<hr style="height:1px; visibility:hidden;" />
 
-<p><strong><span style="font-size:1.1em;">Resiliency Analysis and Improvement of Variational Quantum Factoring in Superconducting Qubit</span></strong><br>
-<ins><strong>Ling Qiu</strong></ins>, Mahabubul Alam, Abdullah Ash-Saki, Swaroop Ghosh.<br>
-Proceedings of ACM/IEEE International Symposium on Low Power Electronics and Design <strong>(ISLPED 2020)</strong> <span style="color:blue">(Acceptance rate: ~25%) </span> <br>
-<strong><a href="https://lingqiu3.github.io/portfolio/paper/ISVLSI2019_paper.pdf">Paper</a></strong><br></p>
+<p><strong><span style="font-size:1.1em;">Resiliency Analysis and Improvement of Variational Quantum Factoring in Superconducting Qubit</span></strong><br />
+<ins><strong>Ling Qiu</strong></ins>, Mahabubul Alam, Abdullah Ash-Saki, Swaroop Ghosh.<br />
+Proceedings of ACM/IEEE International Symposium on Low Power Electronics and Design <strong>(ISLPED 2020)</strong> <span style="color:blue">(Acceptance rate: ~25%) </span> <br />
+<strong><a href="https://lingqiu3.github.io/portfolio/paper/ISVLSI2019_paper.pdf">Paper</a></strong><br /></p>
 
 </div>
   </main>
@@ -91,21 +101,34 @@ Proceedings of ACM/IEEE International Symposium on Low Power Electronics and Des
     by <strong>Ling Qiu</strong>
   </small>
 
-  <div class="container-fluid justify-content-center">
-<a class="social mx-1" href="mailto:lingq@psu.edu" style="color: #6c757d" onmouseover="this.style.color='#db4437'" onmouseout="this.style.color='#6c757d'">
+  <div class="container-fluid justify-content-center"><a class="social mx-1"  href="mailto:lingq@psu.edu"
+       style="color: #6c757d"
+       onMouseOver="this.style.color='#db4437'"
+       onMouseOut="this.style.color='#6c757d'">
       <i class="fas fa-envelope fa-1x"></i>
-    </a><a class="social mx-1" href="https://www.github.com/lingqiu3" style="color: #6c757d" onmouseover="this.style.color='#333333'" onmouseout="this.style.color='#6c757d'">
+    </a><a class="social mx-1"  href="https://www.github.com/lingqiu3"
+       style="color: #6c757d"
+       onMouseOver="this.style.color='#333333'"
+       onMouseOut="this.style.color='#6c757d'">
       <i class="fab fa-github fa-1x"></i>
-    </a><a class="social mx-1" href="https://www.instagram.com/da_solo_coco" style="color: #6c757d" onmouseover="this.style.color='#405de6'" onmouseout="this.style.color='#6c757d'">
+    </a><a class="social mx-1"  href="https://www.instagram.com/da_solo_coco"
+       style="color: #6c757d"
+       onMouseOver="this.style.color='#405de6'"
+       onMouseOut="this.style.color='#6c757d'">
       <i class="fab fa-instagram fa-1x"></i>
-    </a><a class="social mx-1" href="https://www.linkedin.com/in/ling-qiu-psu" style="color: #6c757d" onmouseover="this.style.color='#007bb5'" onmouseout="this.style.color='#6c757d'">
+    </a><a class="social mx-1"  href="https://www.linkedin.com/in/ling-qiu-psu"
+       style="color: #6c757d"
+       onMouseOver="this.style.color='#007bb5'"
+       onMouseOut="this.style.color='#6c757d'">
       <i class="fab fa-linkedin-in fa-1x"></i>
-    </a><a class="social mx-1" href="https://www.twitter.com/lingqiu33" style="color: #6c757d" onmouseover="this.style.color='#1da1f2'" onmouseout="this.style.color='#6c757d'">
+    </a><a class="social mx-1"  href="https://www.twitter.com/lingqiu33"
+       style="color: #6c757d"
+       onMouseOver="this.style.color='#1da1f2'"
+       onMouseOut="this.style.color='#6c757d'">
       <i class="fab fa-twitter fa-1x"></i>
     </a>
 
-</div>
-<small id="attribution">
+</div><small id="attribution">
     theme <a href="https://github.com/YoussefRaafatNasry/portfolYOU">portfolYOU</a>
   </small>
   
