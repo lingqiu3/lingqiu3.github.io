@@ -26,33 +26,34 @@
   <title>About</title>
   <meta name="description" content="I love building beautiful things. :tiger: :panda_face:">
 
-  
   <link rel="shortcut icon" type="image/x-icon" href="/assets/favicon.ico">
+
+  <!-- Theme style -->
+  <script src="/assets/js/theme.js"></script>
 
   <!-- Font Awesome CDN -->
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.10.0/css/all.css">
 
   <!-- Bootstrap CSS CDN -->
-  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css">
 
   <!-- Animate CSS CDN -->
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.css" type="text/css"/>
-  
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.css">
+
   <!-- Custom CSS -->
-  <link rel="stylesheet" href="/assets/css/style.css" type="text/css">
+  <link rel="stylesheet" href="/assets/css/style.css">
 
 </head>
 
-
-<body class="d-flex flex-column h-100">
+<body class="h-100 d-flex flex-column">
 
   <main class="flex-shrink-0 container mt-5">
-  <nav class="navbar navbar-expand-lg navbar-light">
+    <nav class="navbar navbar-expand-lg navbar-themed">
 
   <a class="navbar-brand" href="/"><h5><b>Ling Qiu</b></h5></a>
 
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-    <span class="navbar-toggler-icon"></span>
+    <i class="fas fa-1x fa-bars text-themed"></i>
   </button>
 
   <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
@@ -65,11 +66,12 @@
 
       
 
+      <span id="theme-toggler" class="nav-item nav-link" role="button" onclick="toggleTheme()"></span>
     </div>
   </div>
 
 </nav>
-  <div class="col-lg-10 mx-auto mt-5 post">
+    <div class="col-lg-10 mx-auto mt-5 post">
   <h2 id="about-me"><strong>About Me</strong></h2>
 
 <p>Hi, I am <strong>Ling Qiu</strong> <img class="emoji" title=":wave:" alt=":wave:" src="https://github.githubassets.com/images/icons/emoji/unicode/1f44b.png" height="20" width="20">. <strong><a href="https://lingqiu3.github.io/cv/Ling%20Qiu%20CV.pdf">CV</a></strong> <br></p>
@@ -82,9 +84,13 @@
 
 <ul>
   <li>
-<span style="font-size:1.1em;">March 2021</span> : We have two papers are accepted at <a href="https://chi2021.acm.org">CHI LBW 2021</a>. One is on <a href="https://lingqiu3.github.io/paper/nurse_amie_lbw.pdf">using smart speakers to support patients with metastatic breast cancer</a>, the other is on <a href="https://lingqiu3.github.io/paper/covid_lbw.pdf">using Twitter data to assess mental well-being of essential workers during the COVID-19</a>.</li>
+<span style="font-size:1.1em;"><strong>May 2021</strong></span> : I passed the Ph.D. Qualifying Exam!</li>
   <li>
-<span style="font-size:1.1em;">August 2020</span> : I am officially starting my new Ph.D. journey with <a href="https://saeedabdullah.com">Dr.Saeed</a>!</li>
+<span style="font-size:1.1em;"><strong>April 2021</strong></span> : Our project on using smart speakers to provide supportive interventions for women with Metastatic Breast Cancer was featured in <a href="https://news.psu.edu/story/656467/2021/04/27/research/amazon-alexa-skill-offers-supportive-care-breast-cancer-patients">Penn state News</a>.</li>
+  <li>
+<span style="font-size:1.1em;"><strong>March 2021</strong></span> : We have two papers are accepted at <a href="https://chi2021.acm.org">CHI LBW 2021</a>. One is on <a href="https://lingqiu3.github.io/paper/nurse_amie_lbw.pdf">using smart speakers to support patients with metastatic breast cancer</a>, the other is on <a href="https://lingqiu3.github.io/paper/covid_lbw.pdf">using Twitter data to assess mental well-being of essential workers during the COVID-19</a>.</li>
+  <li>
+<span style="font-size:1.1em;"><strong>August 2020</strong></span> : I am officially starting my new Ph.D. journey with <a href="https://saeedabdullah.com">Dr.Saeed</a>!</li>
 </ul>
 
 <h2 id="services"><strong>Services</strong></h2>
@@ -114,6 +120,7 @@
 </ul>
 
 <p><br></p>
+
 
 <script type="text/javascript" id="clustrmaps" src="//clustrmaps.com/map_v2.js?d=fuTNMW0dRB2QZ-C1O4t0c3sim15PT2E0xyAjyQR00xo"></script>
 
@@ -146,6 +153,7 @@
   </small>
   
 </footer>
+
   
   <!-- GitHub Buttons -->
 <script async defer src="https://buttons.github.io/buttons.js"></script>
@@ -169,6 +177,7 @@ $(function () {
     $('[data-toggle="tooltip"]').tooltip()
 })
 </script>
+
 
 </body>
 
